@@ -8,6 +8,7 @@ logging.basicConfig(filename='app.log',
                     level=logging.DEBUG,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
+# for public endpoints that doesnt need token validation
 public_endpoints = { 
         'POST': ['/generate']
     }
