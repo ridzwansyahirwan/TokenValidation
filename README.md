@@ -14,6 +14,6 @@ python app.py
 ```
 # Example API
 ```
-/ - Landing page
-/generate - Generate a new token
+GET / - Landing page
+POST /generate - Generate a new token
 ```
