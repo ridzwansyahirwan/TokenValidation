@@ -1,4 +1,4 @@
 flask
 python-dotenv
 PyJWT
-TokenForge==0.6.1
+AuthValid

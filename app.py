@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from token_forge import generate_token, authenticate_token
+from authValid import generate_token, authenticate_token
 import logging
 
 app = Flask(__name__)
